@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+@media screen and (max-width:  400px){
+	.contenedor{
+		width: 100%;
+	}
+}
+
+.altura-a-b{
+	padding: 50px 0;
+}
+
+#promociones {	
+	background-image: url(https://img.freepik.com/foto-gratis/fondo-agua-mar_1203-2570.jpg?w=740);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 70%;
+	color: black;
+	text-align: center;		
+	font-family: 'Heebo', sans-serif;
+}
+h1#bannner{
+	text-align: center;	
+	font-family: 'Heebo', sans-serif;
+	font-size: 350%;
+}
+
+div#slogan{
+	color: #F1F1F1;
+}
+
+.text{
+	color: white;
+	text-align: left;		
+	font-family: 'Play', sans-serif;
+}
+
+.ms{
+  margin-left: -5 !important;
+}
+
+button.text-center{
+	display: inline-flex; 
+	align-self: center;  
+	justify-content: center;
+}
+
+.texto{
+	color: black;
+	text-align: left;
+	text-decoration: none;
+}
+.text-left{
+	text-align: left;
+	color: red;
+}
+
+.card-sector{
+	justify-content: center;
+	align-items: center;
+	position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 3px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-sector div{
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.70);
+}
+
+.card-sector div img{
+	width: 100%;
+	height: 100%;
+	transition: .55s ;
+}
+
+.card-sector div .buttons{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.30);
+	transition: .55s ;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+
+.card-sector div:hover .buttons{
+	opacity: 1;
+	visibility: visible;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 70px;
+}
+
+.card-sector div:hover .buttons a{
+	display: flex;
+	justify-content: center;
+}
+
+
+.card-Tools {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+}
